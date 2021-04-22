@@ -31,32 +31,32 @@ function init() {
 
     const mainLight = new THREE.DirectionalLight( 0xffffff, 1 );
     mainLight.position.set( -100, 100, -100 );
-    mainLight.castShadow = true;
+    //mainLight.castShadow = true;
     scene.add( mainLight );
 
     const subLight = new THREE.DirectionalLight( 0xffc0cb, 0.8 );
     subLight.position.set( 100, 100, 100 );
-    subLight.castShadow = true;
+    //subLight.castShadow = true;
     scene.add( subLight );
 
     const officeLight1 = new THREE.PointLight( 0xd8f9ff, 1, 100 );
     officeLight1.position.set( 40, 20, 40 );
-    officeLight1.castShadow = true;
+    //officeLight1.castShadow = true;
     scene.add( officeLight1 );
 
     const officeLight2 = new THREE.PointLight( 0x90ee90, 1, 100 );
     officeLight2.position.set( -40, 20, 40 );
-    officeLight2.castShadow = true;
+    //officeLight2.castShadow = true;
     scene.add( officeLight2 );
 
     const officeLight3 = new THREE.PointLight( 0xffe7d3, 1, 100 );
     officeLight3.position.set( 40, 20, -40 );
-    officeLight3.castShadow = true;
+    //officeLight3.castShadow = true;
     scene.add( officeLight3 );
 
     const officeLight4 = new THREE.PointLight( 0xffd3fd, 1, 100 );
     officeLight4.position.set( -40, 20, -40 );
-    officeLight4.castShadow = true;
+    //officeLight4.castShadow = true;
     scene.add( officeLight4 );
 
     
